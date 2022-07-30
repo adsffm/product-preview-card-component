@@ -1,0 +1,33 @@
+:root {
+    --main-page-color: RGB(243,234,227)
+}
+
+* {
+    margin: 0;
+}
+
+main {
+    background-color: var(--main-page-color);
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+   background-color: white;
+   height: 750px;
+   width: 1000px;
+   border-radius: 15px;
+}
+
+.fragment {
+    width: 500px;
+}
+
+.fragment--product {
+    background-image: url(../images/image-product-desktop.jpg);
+    float: left;
+}
+
+.fragment--description {
+    float: right;
+}
