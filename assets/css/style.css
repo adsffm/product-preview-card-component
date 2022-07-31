@@ -13,13 +13,16 @@ main {
 }
 
 .card-container {
-   background-color: white;
-   height: 750px;
-   width: 1000px;
-   border-radius: 15px;
+    display: flexbox;
+    flex-direction: row;
+    height: 750px;
+    width: 1000px;
+    border-radius: 15px;
+    background-color: white;
 }
 
 .fragment {
+    height: 750px;
     width: 500px;
 }
 
@@ -29,5 +32,7 @@ main {
 }
 
 .fragment--description {
+    color: red;
     float: right;
+
 }
